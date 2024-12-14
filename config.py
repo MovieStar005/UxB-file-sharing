@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "8cd9e6113ed53dd8767cb760d4535bd1")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002476458183"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6080388435"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6502373566"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -51,7 +51,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/All_Movie_Star_Link")
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » Jay Shree Ram</b>")
 try:
     ADMINS=[6695586027]
-    for x in (os.environ.get("ADMINS", "6080388435").split()):
+    for x in (os.environ.get("ADMINS", "6502373566").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
